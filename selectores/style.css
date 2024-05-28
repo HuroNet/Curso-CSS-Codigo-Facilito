@@ -1,0 +1,9 @@
+.abuelo .titulo{
+    color: red;
+}
+
+.padre .titulo{
+    color:rgb(39, 124, 103) ;
+}
+
+.titulo{color: blue;}
