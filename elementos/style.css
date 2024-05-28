@@ -1,0 +1,38 @@
+.element{
+    box-sizing: content-box;
+    /* box-sizing: border-box;  liminta el tama;o */
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border: 30px solid steelblue;
+    padding: 30px;
+    margin: auto;
+}
+
+
+
+body{
+    font-size: 25px;
+}
+
+.bloque{
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+
+.inline{
+    /* display: block; se puede pero mejor sale */
+    display: inline-block;
+    background-color:crimson;
+    color: aliceblue;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.boton{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,26 @@
+.box {
+  background-color: steelblue;
+  width: 200px;
+  height: 200px;
+  padding: 90px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-width: 20px;
+}
+
+
+.box1{
+    background-color:aqua ;
+    margin: 40px;
+}
+.main{  
+    background-color: steelblue;
+    margin-top: 30px;
+
+}
+.footer{
+    background-color: rgb(65, 68, 71);
+    margin-top: 50px;
+}
+
+/* hay qu etener cuidado con los colapsos de los margenes */
