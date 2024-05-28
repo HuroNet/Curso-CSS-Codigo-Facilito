@@ -1,0 +1,25 @@
+.title{
+    color: blue;
+    color:red;
+}
+
+
+body{
+    font-family:cursive;
+    color:tomato;
+    border: 2px solid black;
+}
+
+h1{
+    color: green;
+    font-size:30px;
+    border: inherit;
+}
+
+a{
+    color: inherit; 
+    /* inherit permite heredar el valor del padre */
+}
+input{
+    font-family: inherit;
+}
