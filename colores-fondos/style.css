@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 70px;
+    color: black;
+    background-color: yellow;
+}
+
+.background{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    background-color: aquamarine;
+    /* background-image: url('../images/logo.png'); */
+    /* background-size: 90px; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-position: top center; */
+    /* background-position: center; */
+    /* aqui se puede usar t op left botton right  */
+
+    background:linear-gradient(blue,red);
+
+}
