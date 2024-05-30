@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(100, 27, 100);
+    color:aliceblue;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+}
+
+.title{
+    margin-bottom: 20px;
+    border: 2px  solid white;
+}
+
+.primero{
+    font-size: 30px;
+}
+
+.segundo{
+    font-size: 1rem;
+}
+
+.tercero{
+    font-size: 2em;
+}

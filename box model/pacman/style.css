@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pacman{
+    width: 100px;
+    margin: 80px;
+    border-bottom: 100px solid red;
+    border-top: 100px solid green;
+    border-left: 100px solid blue;
+    border-right: 100px solid transparent;
+
+    border-radius: 50%;
+}
