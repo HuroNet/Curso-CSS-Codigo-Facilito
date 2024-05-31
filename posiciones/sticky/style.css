@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 300vh;
+
+}
+
+.sticky{
+    
+    width: 140px;
+    height: 140px;
+    background-color: turquoise;
+    position: sticky;
+    /* es una mezcla entre relative y fixed 
+    llega a un punto y se vuelve fixed
+     */
+     top: 50px;
+     left: 90px;
+     /* el top y los demas define la distancia de pegado 
+     cuando baja el scroll  */
+}
+
+.container{
+    height: 300px;
+    width: 200vh;
+    background-color: rgb(139, 82, 82);
+
+}
