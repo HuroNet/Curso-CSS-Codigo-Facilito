@@ -11,6 +11,7 @@ body{
     width: 90%;
     height: 500px;
     border: 2px solid black;
+    margin: 80px auto;
 }
 
 .position{
@@ -24,16 +25,32 @@ body{
 
 .static{
     background-color: blue;
+    /* position: static; es es el valor por defecto  */
 }
 
 .relative{
     background-color: tomato;
+    position: relative;
+    /* esta relative involucra 4 props  */
+    top: 20px;
+    right:0px;
+    left: 200px;
 }
 
 .absolute{
     background-color: purple;
+    position: absolute;
+    top:50px;
+    right: 40px;
+    /* es removido del flujo es como si no existe 
+    -- no tiene lugar eservado como relative
+    se sube el fixed a donde pertenecia absolute
+     */
 }
 
 .fixed{
-    background-color: rgb(73, 69, 114);
+    background-color: rgb(45, 39, 105);
+    position: fixed;
+    /* sale del flujo.. se pega al navegador 
+    se poseciona al viw port   */
 }
