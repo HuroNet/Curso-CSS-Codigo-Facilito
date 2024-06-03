@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:center;
+
+
+}
+
+.element{
+    color: rgb(60, 66, 71);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;   
+}
+
+.element-1{
+    background-color:yellowgreen ;
+}
+.element-2{
+    background-color: violet;
+}
+.element-3{
+    background-color: aqua;
+}
