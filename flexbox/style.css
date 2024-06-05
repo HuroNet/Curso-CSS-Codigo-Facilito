@@ -17,7 +17,9 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap ;
-    justify-content:center;
+    /* justify-content:center; */
+    align-items:center;
+
 
 
 }
@@ -28,11 +30,14 @@ body{
     text-align: center;
     line-height: 100px;
     width: 100px;
-    height: 100px;   
+    /* height: 100px;    */
+    /* ese height esta definido para el cuadrado  */
+    
 }
 
 .element-1{
     background-color:yellowgreen ;
+    order: 2;
 }
 .element-2{
     background-color: violet;
