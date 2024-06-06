@@ -12,13 +12,14 @@ body{
     max-width: 800px;
     min-height: 600px;
     margin: 80px auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    outline: 3px solid black;
 
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap ;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap ; */
     /* justify-content:center; */
-    align-items:center;
+    /* align-items:center; */
 
 
 
@@ -30,18 +31,23 @@ body{
     text-align: center;
     line-height: 100px;
     width: 100px;
-    /* height: 100px;    */
+    height: 100px;   
     /* ese height esta definido para el cuadrado  */
-    
+    flex-grow: 1;
+    /* es el encasrgado del tama;o como el width pero mas ordenado tiene 100px */
+    /* flex-shrink: ; encargado d elo contrario hacer el espacio faltante  */
+    /* flex-basis: ; define como el widtg cambia el flex direction */
 }
 
 .element-1{
     background-color:yellowgreen ;
-    order: 2;
+    order: 3;
 }
 .element-2{
     background-color: violet;
+    order: 1;
 }
 .element-3{
     background-color: aqua;
+    order: 2;
 }
