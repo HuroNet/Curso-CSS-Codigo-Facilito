@@ -54,3 +54,10 @@ body{
     padding: 1em 2em;
     display: inline-block;
 }
+
+@media(min-width:768px){
+    .hero-container{
+        background-color: #010408;
+    }
+
+}
