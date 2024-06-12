@@ -61,6 +61,13 @@ body{
         align-items: center;
         justify-content: space-between;
     }
-    
+    .hero-text{
+        width: 50%;
+    }
+    .pic{
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .hero-title
 
 }
