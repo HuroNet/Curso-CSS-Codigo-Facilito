@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    color: blue;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(9, 32, 32);
+    color: rgb(206, 197, 181);
+    text-decoration: none;
+}
+
+.parrafo{
+    color: rgb(69, 71, 143);
+}
