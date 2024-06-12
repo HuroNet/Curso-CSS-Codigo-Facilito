@@ -1,3 +1,10 @@
+:root{
+    --bordes-colores: 3px solid black;
+    --color-principal: blue;
+
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -5,9 +12,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .title{
-    color: blue;
+    color: var(--color-principal);
+    border: var(--bordes-colores);
 }
 .btn{
+
     display: inline-block;
     padding: 15px 30px;
     background-color: rgb(9, 32, 32);
@@ -16,5 +25,5 @@ body{
 }
 
 .parrafo{
-    color: rgb(69, 71, 143);
+    color: var(--color-principal);
 }
