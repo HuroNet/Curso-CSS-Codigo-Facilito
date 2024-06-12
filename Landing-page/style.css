@@ -67,7 +67,14 @@ body{
     .pic{
         width: 45%;
         margin-bottom: 0;
+        order: 1;
     }
-    .hero-title
+    .hero-title{
+        font-size: 2.5rem;
+    }
+
+    .hero-parrafo{
+        margin: .7em 0 1em;
+    }
 
 }
