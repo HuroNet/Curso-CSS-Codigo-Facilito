@@ -57,7 +57,7 @@ body{
 
 @media(min-width:768px){
     .hero-container{
-        background-color: #010408;
+        flex-direction: row;
     }
 
 }
