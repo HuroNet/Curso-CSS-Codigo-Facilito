@@ -8,4 +8,13 @@
     width: 200px;
     height: 200px;
     background-color: slateblue;
+    box-shadow: 10px 18px 10px 20px purple;
+    /* boxshadow como un cuadro atras  1 drech iz 
+    2 arrioba abajo  3  la difuminacion
+    4 el esparcimiento 5 color*/
+
+    border-radius: 20%;
+    /* border right left  top bottom */
+    
+
 }
