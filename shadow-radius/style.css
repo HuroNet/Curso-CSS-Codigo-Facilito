@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.element{
+    margin: 80px;
+    width: 200px;
+    height: 200px;
+    background-color: slateblue;
+}
