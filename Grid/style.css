@@ -14,13 +14,17 @@ body{
     margin: 80px auto;
     display: grid;
 
-    grid-template-columns: 200px ; 
+    /* grid-template-columns: 20% 20% 20% 20% ;  */
+    /* grid-template-columns: repeat(4,20%); */
+    /* fr divide el espacio disponible  que hay para filas y columnas y divide */
+    grid-template-columns: 20% 20% 1fr 1fr;
     /* crea el tama;o de la columna y ya no hace falta  */
+    grid-template-rows: 100px 200px ;
 }
 
 .item{
     /* width: 100px; */
-    height: 100px;
+    /* height: 100px; */
     color: #221f1f;
     font-size: 2em;
     display: flex;
