@@ -17,9 +17,20 @@ body{
     /* grid-template-columns: 20% 20% 20% 20% ;  */
     /* grid-template-columns: repeat(4,20%); */
     /* fr divide el espacio disponible  que hay para filas y columnas y divide */
-    grid-template-columns: 20% 20% 1fr 1fr;
+    /* grid-template-columns: 20% 20% 1fr 1fr; */
     /* crea el tama;o de la columna y ya no hace falta  */
-    grid-template-rows: 100px 200px ;
+    /* grid-template-rows: 100px 200px ; */
+
+    /* Espaciadores  */
+    /* row-gap: 60px; */
+    /* column-gap: 10%; */
+    /* nota como hay los espacios los fr se reduce  */
+    /* gap: 20px; es en filas y colums algo general */
+
+/* face terminada  */
+
+
+
 }
 
 .item{
