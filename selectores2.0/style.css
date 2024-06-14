@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.button{
+    margin: 50px;
+    color: white;
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    padding: 20px 0px;
+    text-align: center;
+    width: 200px;
+  
+}
+
+.btn-blue{
+    background-color: blue;
+}
+
+
+.btn-tomato{
+    background-color: tomato;
+}   
+
+.btn-red{
+    background-color: red;
+}
+
+.element{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
