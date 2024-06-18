@@ -58,3 +58,40 @@ body{
 .element:hover{
     width: 300px;
 }
+
+.element:target{
+    background-color: navy;
+    transform: translate(100%);
+    /* ayuda a saber de que el elemento esta apuntado */
+    /* muy importante */
+}
+
+.input{
+    display: block;
+    padding: 16px;
+    margin: 20px;
+    font-size: inherit;
+}
+
+.label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+
+.input:focus + .label{
+    background-color: burlywood;
+    /* hace foco cuando se esta ene eso  */
+}
+.check{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px
+
+}
+
+.check:checked + .label{
+    background-color: green;
+}
