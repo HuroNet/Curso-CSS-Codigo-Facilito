@@ -8,7 +8,14 @@ body{
 
 .element{
     background-color: rgb(82, 82, 175);
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 30px;
+
+    transform: translateX(100px) ;
+    /* Transofr permite transladar rotar... */
+    transform:scale(1.3) rotate(30deg);
+    /* transform: scale(1.3); */
+    transition: 1s;
+
 }
